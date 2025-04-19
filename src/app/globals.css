@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  /* fonts */
+  /*fonts*/
   --font-lato: "var(--font-lato)", sans-serif;
   --font-ibrand: "var(--font-ibrand)", sans-serif;
 
-  /* colors */
-  --color-green-50: #c8fefe;
+  /*colors*/
+  --color-green-50: #ebf9fb;
   --color-green-100: #63fdfd;
   --color-green-200: #03e2e2;
   --color-green-300: #03baba;
@@ -41,4 +41,29 @@
   --color-gray-800: #1a1a1a;
   --color-gray-900: #1a1a1a;
   --color-gray-950: #000000;
+}
+
+.gradient-button {
+  background-image: linear-gradient(
+    75deg,
+    var(--color-green-300),
+    var(--color-green-500),
+    var(--color-green-300)
+  );
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  transition: background-position 0.4s ease, transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+  -webkit-transition: background-position 0.4s ease, transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+  -moz-transition: background-position 0.4s ease, transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+  -ms-transition: background-position 0.4s ease, transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+  -o-transition: background-position 0.4s ease, transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+}
+
+.gradient-button:hover {
+  background-position: 100% 50%;
 }
