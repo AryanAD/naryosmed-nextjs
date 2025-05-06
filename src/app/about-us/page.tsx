@@ -1,5 +1,11 @@
+import CallToAction from "../contact-us/CallToAction";
+
 const AboutUs = () => {
-  return <div>AboutUs</div>;
+  return (
+    <div>
+      <CallToAction />
+    </div>
+  );
 };
 
 export default AboutUs;

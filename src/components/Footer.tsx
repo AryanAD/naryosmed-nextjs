@@ -6,7 +6,7 @@ import FacebookIcon from "../assets/icons/Facebookicon";
 import YoutubeIcon from "../assets/icons/YoutubeIcon";
 import LinkedInIcon from "../assets/icons/LinkedInIcon";
 import Image from "next/image";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/logo.png";
 import { usePathname } from "next/navigation";
 
 const Footer = () => {
