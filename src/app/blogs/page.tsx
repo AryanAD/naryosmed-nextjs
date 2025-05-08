@@ -1,8 +1,10 @@
-import CallToAction from "../contact-us/CallToAction";
+import CallToAction from "../../components/CallToAction";
+import Testimonials from "../../components/Testimonials";
 
 const Blogs = () => {
   return (
     <div>
+      <Testimonials />
       <CallToAction />
     </div>
   );

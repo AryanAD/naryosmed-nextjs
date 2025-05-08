@@ -29,7 +29,7 @@ const Header = () => {
   }
 
   return (
-    <header className="w-[100dvw] flex items-center justify-center">
+    <header className="top-0 w-[100dvw] flex items-center justify-center">
       <nav className="w-[90%] py-2 flex justify-around rounded-b-2xl drop-shadow-sm bg-green-50">
         {/* logo */}
         <div className="w-[20%]">

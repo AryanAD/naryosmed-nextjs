@@ -2,7 +2,7 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <div className="py-[120px] bg-gradient-to-br from-blue-50 to to-blue-100 via-blue-50 w-screen flex items-center justify-center">
+    <div className="pt-20 pb-20 bg-gradient-to-br from-blue-50 to to-blue-100 via-blue-50 w-screen flex items-center justify-center">
       <div className="w-[80%] flex flex-col items-center justify-center">
         <h1 className="font-ibrand text-4xl text-gray-400">
           Reach Our <span className="text-green-500">Help Desk</span> For

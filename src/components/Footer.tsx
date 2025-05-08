@@ -33,7 +33,7 @@ const Footer = () => {
   }
 
   return (
-    <footer className="absolute bottom-0 w-[100dvw] flex justify-center items-center bg-green-50">
+    <footer className="bottom-0 w-[100dvw] flex justify-center items-center bg-green-50">
       <div className="w-[85%] py-4 flex flex-col items-center">
         {/* top-footer */}
         <div className="flex py-6 flex-row flex-wrap justify-around items-center">

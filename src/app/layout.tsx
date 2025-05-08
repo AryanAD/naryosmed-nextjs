@@ -32,9 +32,7 @@ export default function RootLayout({
       <body className={`${latoFont.variable} ${ibrandFont.variable}`}>
         <Header />
 
-        <main className="w-[100dvw] flex flex-col justify-center items-center">
-          {children}
-        </main>
+        <main className="w-[100dvw] h-screen flex flex-col">{children}</main>
 
         <Footer />
       </body>
